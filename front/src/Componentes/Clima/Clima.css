@@ -1,0 +1,111 @@
+.Card{
+    background-color:#FFFFFF;
+    width: 300px;
+    height: 520px;
+    box-shadow: 5px 10px 20px 0px rgb(0 0 0 / 20%);
+    border-radius: 30px;
+    position: relative;
+    z-index: -2;    
+}
+
+.CardTop{    
+    width: 100%;
+    height: 310px;
+}
+
+.Datos{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Ciudad{
+    font-weight: bold;
+    font-size: 20px;
+    color: #2B2F7E;
+}
+
+.Fecha{
+    font-weight: 400;
+    font-size: 20px;
+    color: #2B2F7E;
+}
+
+.Grados{
+    font-weight: bold;
+    font-size: 40px;
+    color: #2B2F7E;
+}
+
+.boxClima{
+    height: 130px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Clima{
+    background-color:#FFFFFF;
+    background: linear-gradient(#7763A9, #2B338B);
+    color: white;    
+    font-weight: 500;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 130px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#O-FondoCiudad{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 300px;
+    height: 344px;
+    position: absolute;
+    z-index: -1;
+}
+
+.CardBot{    
+    padding-top: 15%;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.separacion{
+    width: 80%;
+    border-bottom: none;
+}
+
+#O-Logos{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.TextoInformacion{
+    font-size: 14px;
+}
+
+.Bloque{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.DatosBloque{    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.Line{
+    width: 80%;
+    border-bottom: none;
+}
