@@ -80,7 +80,6 @@ const Clima = () => {
                 informacion={ready && `${weather?.wind?.speed || "..."} m/s`}
             />
         </div>
-
     </div>
 };
 
